@@ -641,7 +641,6 @@ print(space)  # You don't see the printed empty space
 print(full_name) # there is indent because of the trailing space in the full name is string
 
 ```
-
     Asabeneh
     8
     Yetayeh
@@ -931,32 +930,34 @@ else:
 ### Exercises: Conditional
 
 1. Get user input using input(“Enter your age:”). If user is 18 or older , give feedback:You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.
-   Output:
+  
    ```sh
    Enter your age: 30
    You are old enough to drive.
    ```
-   Output:
+
    ```sh
    Enter your age:15
    You are left with 3 years to drive.
    ```
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison log to console who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
-   Output:
+
+2. Compare the values of myAge and yourAge using if … else. Based on the comparison log to console who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
-1. If a is greater than b return a is greater than b else a is less than b.
+
+3. If a is greater than b return a is greater than b else a is less than b.
    Output:
    `sh let a = 4; let b = 3; 4 is greater than 3`
-1. Write a code which give grade students according to theirs scores:
+4. Write a code which give grade students according to theirs scores:
    - 80-100, A
    - 70-89, B
    - 60-69, C
    - 50-59, D
    - 0 -49, F
-1. Check if the season is Autumn, Winter, Spring or Summer.
+5. Check if the season is Autumn, Winter, Spring or Summer.
    If the user input is:
    - September, October or November, the season is Autumn.
    - December, January or February, the season is Winter.
@@ -2032,6 +2033,7 @@ print(do_something(lambda x: x * x * x, 3))
 1. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
 <h1 align="center" style="color:#306998;font-size:64px;">CLASSES</h1>
+
 ## Classes and Objects
 
 Python is an object oriented programming language. Everything in Python is an object, with its properties and methods. A number, string, list, dictionary,tuple, set etc. used in a program is an object of a corresponding built-in class. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
@@ -2795,14 +2797,16 @@ print (A)
     6.283185307179586
     [22.76977213 31.19118012 31.39357782 28.82041376 18.95246175 33.6695274
      22.31571545 21.39637955 28.40572587 24.38512071]
+
 ## Python for Statistical Analysis
-## Statistics
+
+### Statistics
 
 Statistics is the discipline that studies the _collection_, _organization_, _displaying_, _analysis_, _interpretation_ and _presentation_ of data.
 Statistics is a branch of mathematics that is recommended to be a prerequisite for  data science and machine learning. Statistics is a very broad field but we will focus in this section only on the most relevant part.
 After completing this challenge, you may go to web development, data analysis, machine learning and data science path. Whatever path you may follow, at some point in your career you will get data which you may work on. Having some statistical knowledge will help you to make decision based on data, *data tells as they say*.
 
-## Data
+### Data
 
 What is data? Data is any set of characters that is gathered and translated for some purpose, usually analysis. It can be any character, including text and numbers, pictures, sound, or video. If data is not put into context, it doesn't give any sense to a human or computer. To make sense from data we need to work on the data using different tools.
 
@@ -2810,11 +2814,11 @@ The work flow of data analysis, data science or machine learning starts from dat
 
 Data can be found as small or big data format. Most of the data types we will get have been covered in the file handling section.
 
-## Statistics Module
+### Statistics Module
 
 The python _statistics_ module provides functions for calculating mathematical statistics of numeric data. The module is not intended to be a competitor to third-party libraries such as NumPy, SciPy, or proprietary full-featured statistics packages aimed at professional statisticians such as Minitab, SAS and Matlab. It is aimed at the level of graphing and scientific calculators.
 
-# NumPy
+### NumPy
 
 In the first section we defined python as a great general-purpose programming language on its own, but with the help of other popular libraries (numpy, scipy, matplotlib, pandas etc) it becomes a powerful environment for scientific computing.
 
@@ -2825,7 +2829,8 @@ So far, we have been using vscode but from now on I would recommend using Jupyte
 ```sh
 asabeneh@Asabeneh:~/Desktop/30DaysOfPython$ pip install numpy
 ```
-## Importing NumPy
+
+### Importing NumPy
 
 Jupyter notebook is available if your are in favor of [jupyter notebook](https://github.com/Asabeneh/data-science-for-everyone/blob/master/numpy/numpy.ipynb)
 
@@ -2838,9 +2843,9 @@ Jupyter notebook is available if your are in favor of [jupyter notebook](https:/
     print(dir(np))
 ```
 
-## Creating numpy array using
+### Creating numpy array using
 
-### Creating int numpy arrays
+#### Creating int numpy arrays
 
 ```py
     # Creating python List
@@ -2873,13 +2878,16 @@ Creating a float numpy array from list with a float data type parameter
 ```
 
 ### Creating boolean numpy arrays
-Creating a boolean a numpy array from list 
+
+Creating a boolean a numpy array from list
+
 ```py
     numpy_bool_array = np.array([0, 1, -1, 0, 0], dtype=bool)
     print(numpy_bool_array) # array([False,  True,  True, False, False])
 ```
 
-### Creating multidimensional array using numpy
+#### Creating multidimensional array using numpy
+
 A numpy array may have one or multiple rors and columns
 
 ```py
@@ -2888,6 +2896,7 @@ A numpy array may have one or multiple rors and columns
     print(type (numpy_two_dimensional_list))
     print(numpy_two_dimensional_list)
 ```
+
 ```sh
     <class 'numpy.ndarray'>
     [[0 1 2]
@@ -2895,7 +2904,7 @@ A numpy array may have one or multiple rors and columns
      [6 7 8]]
 ```
 
-### Converting numpy array to list
+#### Converting numpy array to list
 
 ```python
 # We can always convert an array back to a python list using tolist().
@@ -2904,13 +2913,15 @@ print(type (np_to_list))
 print('one dimensional array:', np_to_list)
 print('two dimensional array: ', numpy_two_dimensional_list.tolist())
 ```
+
 ```sh
     <class 'list'>
     one dimensional array: [1, 2, 3, 4, 5]
     two dimensional array:  [[0, 1, 2], [3, 4, 5], [6, 7, 8]]
 ```
 
-### Creating numpy array from tuple
+#### Creating numpy array from tuple
+
 ```py
 # Numpy array from tuple
 # Creating tuple in Python
@@ -2923,7 +2934,8 @@ print(type (numpy_array_from_tuple)) # <class 'numpy.ndarray'>
 print('numpy_array_from_tuple: ', numpy_array_from_tuple) # numpy_array_from_tuple:  [1 2 3 4 5]
 ```
 
-### Shape of numpy array
+#### Shape of numpy array
+
 The shape method provide the shape of the array as a tuple. The first is the row and the second is the column. If the array is just one dimensional it returns the size of the array.
 
 ```py
@@ -2937,6 +2949,7 @@ The shape method provide the shape of the array as a tuple. The first is the row
         [8,9,10, 11]])
     print(three_by_four_array.shape)
 ```
+
 ```sh
     [1 2 3 4 5]
     shape of nums:  (5,)
@@ -2947,8 +2960,10 @@ The shape method provide the shape of the array as a tuple. The first is the row
     (3, 4)
 ```
 
-### Data type of numpy array
+#### Data type of numpy array
+
 Type of data types: str, int, float, complex, bool, list, None
+
 ```py
 int_lists = [-3, -2, -1, 0, 1, 2,3]
 int_array = np.array(int_lists)
@@ -2959,6 +2974,7 @@ print(int_array.dtype)
 print(float_array)
 print(float_array.dtype)
 ```
+
 ```sh
     [-3 -2 -1  0  1  2  3]
     int64
@@ -2967,7 +2983,9 @@ print(float_array.dtype)
 ```
 
 ### Size of a numpy array
+
 In numpy to know the number of items in a numpy array list we use size
+
 ```py
 numpy_array_from_list = np.array([1, 2, 3, 4, 5])
 two_dimensional_list = np.array([[0, 1, 2],
@@ -2978,12 +2996,13 @@ print('The size:', numpy_array_from_list.size) # 5
 print('The size:', two_dimensional_list.size)  # 3
 
 ```
+
 ```sh
     The size: 5
     The size: 9
 ```
 
-## Mathematical Operation using numpy
+### Mathematical Operation using numpy
 
 Numpy array is not like exactly like python list. To do mathematical operation in pyhton list we have to loop through the items but numpy can allow to do any mathematical operation without looping.
 Mathematical Operation:
@@ -2995,7 +3014,7 @@ Mathematical Operation:
 * Floor Division(//)
 * Exponential(**)
 
-### Addition
+#### Addition
 
 ```py
 # Mathematical Operation
@@ -3011,7 +3030,7 @@ print(ten_plus_original)
     [11 12 13 14 15]
 ```
 
-### Subtraction
+#### Subtraction
 
 ```python
 # Subtraction
@@ -3034,12 +3053,13 @@ print('original array: ', numpy_array_from_list)
 ten_times_original = numpy_array_from_list * 10
 print(ten_times_original)
 ```
+
 ```sh
     original array:  [1 2 3 4 5]
     [10 20 30 40 50]
 ```
 
-### Division
+#### Division
 
 ```python
 # Division
@@ -3048,12 +3068,13 @@ print('original array: ', numpy_array_from_list)
 ten_times_original = numpy_array_from_list / 10
 print(ten_times_original)
 ```
+
 ```sh
     original array:  [1 2 3 4 5]
     [0.1 0.2 0.3 0.4 0.5]
 ```
 
-### Modulus
+#### Modulus
 
 ```python
 # Modulus; Finding the remainder
@@ -3062,12 +3083,14 @@ print('original array: ', numpy_array_from_list)
 ten_times_original = numpy_array_from_list % 3
 print(ten_times_original)
 ```
+
 ```sh
     original array:  [1 2 3 4 5]
     [1 2 0 1 2]
 ```
 
-### Floor Division
+#### Floor Division
+
 ```py
 # Floor division: the division result without the remainder
 numpy_array_from_list = np.array([1, 2, 3, 4, 5])
@@ -3076,7 +3099,8 @@ ten_times_original = numpy_array_from_list // 10
 print(ten_times_original)
 ```
 
-### Exponential
+#### Exponential
+
 ```py
 # Exponential is finding some number the power of another:
 numpy_array_from_list = np.array([1, 2, 3, 4, 5])
@@ -3084,12 +3108,13 @@ print('original array: ', numpy_array_from_list)
 ten_times_original = numpy_array_from_list  ** 2
 print(ten_times_original)
 ```
+
 ```sh
     original array:  [1 2 3 4 5]
     [ 1  4  9 16 25]
 ```
 
-## Checking data types
+### Checking data types
 
 ```py
 #Int,  Float numbers
@@ -3101,15 +3126,17 @@ print(numpy_int_arr.dtype)
 print(numpy_float_arr.dtype)
 print(numpy_bool_arr.dtype)
 ```
+
 ```sh
     int64
     float64
     bool
 ```
 
-### Converting types
+##### Converting types
 
 We can convert the data types of numpy array
+
 1. Int to Float
 
 ```py
@@ -3124,6 +3151,7 @@ numpy_int_arr
 numpy_int_arr = np.array([1., 2., 3., 4.], dtype = 'int')
 numpy_int_arr
 ```
+
 ```sh
     array([1, 2, 3, 4])
 ```
@@ -3134,6 +3162,7 @@ numpy_int_arr
 np.array([-3, -2, 0, 1,2,3], dtype='bool')
 
 ```
+
 ```sh
     array([ True,  True, False,  True,  True,  True])
 ```
@@ -3143,11 +3172,12 @@ np.array([-3, -2, 0, 1,2,3], dtype='bool')
 ```py
 numpy_float_list.astype('int').astype('str')
 ```
+
 ```sh
     array(['1', '2', '3'], dtype='<U21')
 ```
 
-## Multi-dimensional Arrays
+#### Multi-dimensional Arrays
 
 ```py
 # 2 Dimension Array
@@ -3158,6 +3188,7 @@ print('Shape: ', two_dimension_array.shape)
 print('Size:', two_dimension_array.size)
 print('Data type:', two_dimension_array.dtype)
 ```
+
 ```sh
     <class 'numpy.ndarray'>
     [[1 2 3]
@@ -3167,7 +3198,8 @@ print('Data type:', two_dimension_array.dtype)
     Size: 9
     Data type: int64
 ```
-### Getting items from a numpy array
+
+#### Getting items from a numpy array
 
 ```py
 # 2 Dimension Array
@@ -3179,6 +3211,7 @@ print('First row:', first_row)
 print('Second row:', second_row)
 print('Third row: ', third_row)
 ```
+
 ```sh
     First row: [1 2 3]
     Second row: [4 5 6]
@@ -3195,6 +3228,7 @@ print('Third column: ', third_column)
 print(two_dimension_array)
 
 ```
+
 ```sh
     First column: [1 4 7]
     Second column: [2 5 8]
@@ -3204,7 +3238,7 @@ print(two_dimension_array)
      [7 8 9]]
 ```
 
-## Slicing Numpy array
+#### Slicing Numpy array
 Slicing in numpy is similar to slicing in python list
 
 ```py
@@ -3212,12 +3246,14 @@ two_dimension_array = np.array([[1,2,3],[4,5,6], [7,8,9]])
 first_two_rows_and_columns = two_dimension_array[0:2, 0:2]
 print(first_two_rows_and_columns)
 ```
+
 ```sh
     [[1 2]
      [4 5]]
 ```
 
-### How to reverse the rows and the whole array?
+#### How to reverse the rows and the whole array?
+
 ```py
 two_dimension_array[::]
 ```
@@ -3228,19 +3264,20 @@ two_dimension_array[::]
            [7, 8, 9]])
 ```
 
-### Reverse the row and column positions
+#### Reverse the row and column positions
 
 ```py
     two_dimension_array = np.array([[1,2,3],[4,5,6], [7,8,9]])
     two_dimension_array[::-1,::-1]
 ```
+
 ```sh
     array([[9, 8, 7],
            [6, 5, 4],
            [3, 2, 1]])
 ```
 
-## How to represent missing values ?
+#### How to represent missing values ?
 
 ```python
     print(two_dimension_array)
@@ -3248,6 +3285,7 @@ two_dimension_array[::]
     two_dimension_array[1,2] =44
     print(two_dimension_array)
 ```
+
 ```sh
     [[1 2 3]
      [4 5 6]
@@ -3263,6 +3301,7 @@ two_dimension_array[::]
     numpy_zeroes = np.zeros((3,3),dtype=int,order='C')
     numpy_zeroes
 ```
+
 ```sh
     array([[0, 0, 0],
            [0, 0, 0],
@@ -3293,6 +3332,7 @@ reshaped = first_shape.reshape(3,2)
 print(reshaped)
 
 ```
+
 ```sh
     [[1 2 3]
      [4 5 6]]
@@ -3305,6 +3345,7 @@ print(reshaped)
 flattened = reshaped.flatten()
 flattened
 ```
+
 ```sh
     array([1, 2, 3, 4, 5, 6])
 ```
@@ -3318,6 +3359,7 @@ flattened
 
     print('Horizontal Append:', np.hstack((np_list_one, np_list_two)))
 ```
+
 ```sh
     [5 7 9]
     Horizontal Append: [1 2 3 4 5 6]
@@ -3327,6 +3369,7 @@ flattened
     ## Vertical Stack
     print('Vertical Append:', np.vstack((np_list_one, np_list_two)))
 ```
+
 ```sh
     Vertical Append: [[1 2 3]
      [4 5 6]]
@@ -3339,6 +3382,7 @@ flattened
     random_float = np.random.random()
     random_float
 ```
+
 ```sh
     0.018929887384753874
 ```
@@ -3348,6 +3392,7 @@ flattened
     random_floats = np.random.random(5)
     random_floats
 ```
+
 ```sh
     array([0.26392192, 0.35842215, 0.87908478, 0.41902195, 0.78926418])
 ```
@@ -3358,6 +3403,7 @@ flattened
     random_int = np.random.randint(0, 11)
     random_int
 ```
+
 ```sh
     4
 ```
@@ -3367,6 +3413,7 @@ flattened
     random_int = np.random.randint(2,10, size=4)
     random_int
 ```
+
 ```sh
     array([8, 8, 8, 2])
 ```
@@ -3376,18 +3423,22 @@ flattened
     random_int = np.random.randint(2,10, size=(3,3))
     random_int
 ```
+
 ```sh
     array([[3, 5, 3],
            [7, 3, 6],
            [2, 3, 3]])
 ```
+
 ### Generationg random numbers
+
 ```py
     # np.random.normal(mu, sigma, size)
     normal_array = np.random.normal(79, 15, 80)
     normal_array
 
 ```
+
 ```sh
     array([ 89.49990595,  82.06056961, 107.21445842,  38.69307086,
             47.85259157,  93.07381061,  76.40724259,  78.55675184,
@@ -3419,6 +3470,7 @@ import seaborn as sns
 sns.set()
 plt.hist(normal_array, color="grey", bins=50)
 ```
+
 ```sh
     (array([2., 0., 0., 0., 1., 2., 2., 0., 2., 0., 0., 1., 2., 2., 1., 4., 3.,
             4., 2., 7., 2., 2., 5., 4., 2., 4., 3., 2., 1., 5., 3., 0., 3., 2.,
@@ -3438,14 +3490,18 @@ plt.hist(normal_array, color="grey", bins=50)
             119.20416383, 120.88147826, 122.5587927 ]),
      <a list of 50 Patch objects>)
 ```
+
 ### Matrix in numpy
+
 ```py
 
 four_by_four_matrix = np.matrix(np.ones((4,4), dtype=float))
 ```
+
 ```py
 four_by_four_matrix
 ```
+
 ```sh
 matrix([[1., 1., 1., 1.],
             [1., 1., 1., 1.],
@@ -3465,9 +3521,10 @@ matrix([[1., 1., 1., 1.],
             [1., 1., 1., 1.]])
 ```
 
+### Numpy numpy.arange()
 
-###  Numpy numpy.arange() 
 #### What is Arrange?
+
 Sometimes, you want to create values that are evenly spaced within a defined interval. For instance, you want to create values from 1 to 10; you can use numpy.arange() function
 
 ```py
@@ -3475,13 +3532,16 @@ Sometimes, you want to create values that are evenly spaced within a defined int
 lst = range(0, 11, 2)
 lst
 ```
+
 ```python
 range(0, 11, 2)
 ```
+
 ```python
 for l in lst:
     print(l)
 ```
+
 ```sh 0
     2
     4
@@ -3489,16 +3549,17 @@ for l in lst:
     8
     10
 ```
+
 ```py
 # Similar to range arange numpy.arange(start, stop, step)
 whole_numbers = np.arange(0, 20, 1)
 whole_numbers
 ```
+
 ```sh
 array([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
            17, 18, 19])
 ```
-
 
 ```py
 natural_numbers = np.arange(1, 20, 1)
@@ -3509,6 +3570,7 @@ natural_numbers
 odd_numbers = np.arange(1, 20, 2)
 odd_numbers
 ```
+
 ```sh
     array([ 1,  3,  5,  7,  9, 11, 13, 15, 17, 19])
 ```
@@ -3517,16 +3579,20 @@ odd_numbers
 even_numbers = np.arange(2, 20, 2)
 even_numbers
 ```
+
 ```sh
     array([ 2,  4,  6,  8, 10, 12, 14, 16, 18])
 ```
+
 ### Creating sequence of numbers using linspace
+
 ```py
 # numpy.linspace()
 # numpy.logspace() in Python with Example
 # For instance, it can be used to create 10 values from 1 to 5 evenly spaced.
 np.linspace(1.0, 5.0, num=10)
 ```
+
 ```sh
     array([1.        , 1.44444444, 1.88888889, 2.33333333, 2.77777778,
            3.22222222, 3.66666667, 4.11111111, 4.55555556, 5.        ])
@@ -3536,6 +3602,7 @@ np.linspace(1.0, 5.0, num=10)
 # not to include the last value in the interval
 np.linspace(1.0, 5.0, num=5, endpoint=False)
 ```
+
 ```
 array([1. , 1.8, 2.6, 3.4, 4.2])
 ```
@@ -3564,6 +3631,7 @@ x = np.array([1,2,3], dtype=np.complex128)
 ```py
 x
 ```
+
 ```sh
     array([1.+0.j, 2.+0.j, 3.+0.j])
 ```
@@ -3582,6 +3650,7 @@ np_list = np.array([(1,2,3), (4,5,6)])
 np_list
 
 ```
+
 ```sh
     array([[1, 2, 3],
            [4, 5, 6]])
@@ -3590,10 +3659,9 @@ np_list
 ```py
 print('First row: ', np_list[0])
 print('Second row: ', np_list[1])
-
 ```
-```sh
 
+```sh
     First row:  [1 2 3]
     Second row:  [4 5 6]
 ```
@@ -3604,12 +3672,12 @@ print('Second column: ', np_list[:,1])
 print('Third column: ', np_list[:,2])
 
 ```
+
 ```sh
     First column:  [1 4]
     Second column:  [2 5]
     Third column:  [3 6]
 ```
-
 
 ### NumPy Statistical Functions with Example
 
@@ -3627,7 +3695,6 @@ Numpy is equipped with the robust statistical function as listed below
   - Percentile
   - Standard deviation np.std()
 
-
 ```python
 np_normal_dis = np.random.normal(5, 0.5, 100)
 np_normal_dis
@@ -3644,15 +3711,12 @@ print('sd: ', two_dimension_array.std())
     mean:  14.777777777777779
     sd:  18.913709183069525
 
-
-
 ```python
 min:  1
 max:  55
 mean:  14.777777777777779
 sd:  18.913709183069525
 ```
-
 
 ```python
 print(two_dimension_array)
@@ -3674,7 +3738,6 @@ print('Row with maximum: ', np.amax(two_dimension_array,axis=1))
 
 ### How to create repeating sequences?
 
-
 ```python
 a = [1,2,3]
 
@@ -3689,9 +3752,7 @@ print('Repeat: ', np.repeat(a, 2))
     Tile:    [1 2 3 1 2 3]
     Repeat:  [1 1 2 2 3 3]
 
-
 ### How to generate random numbers?
-
 
 ```python
 # One random number between [0,1)
@@ -3702,19 +3763,11 @@ print(one_random_num)
 
     0.6149403282678213
 
-
-
 ```python
 0.4763968133790438
 ```
 
-
-
-
     0.4763968133790438
-
-
-
 
 ```python
 # Random numbers between [0,1) of shape 2,3
@@ -4045,15 +4098,12 @@ s
 
 
 
-
     1    1
     2    2
     3    3
     4    4
     5    5
     dtype: int64
-
-
 
 
 ```python
@@ -4084,8 +4134,6 @@ dct = {'name':'Asabeneh','country':'Finland','city':'Helsinki'}
 s = pd.Series(dct)
 s
 ```
-
-
 
 
     name       Asabeneh
@@ -4135,7 +4183,6 @@ s
     8    18.333333
     9    20.000000
     dtype: float64
-
 
 
 ## DataFrames
@@ -4424,8 +4471,6 @@ df.shape # as you can see 10000 rows and three columns
 ```
 
 
-
-
     (10000, 3)
 
 
@@ -4529,8 +4574,6 @@ heights
 ```
 
 
-
-
     0       73.847017
     1       68.781904
     2       74.110105
@@ -4557,8 +4600,6 @@ weights
 ```
 
 
-
-
     0       241.893563
     1       162.310473
     2       212.740856
@@ -4579,20 +4620,12 @@ weights
 len(heights) == len(weights)
 ```
 
-
-
-
     True
-
-
 
 
 ```python
 heights.describe() # give statisical information about height data
 ```
-
-
-
 
     count    10000.000000
     mean        66.367560
@@ -4605,14 +4638,9 @@ heights.describe() # give statisical information about height data
     Name: Height, dtype: float64
 
 
-
-
 ```python
 weights.describe()
 ```
-
-
-
 
     count    10000.000000
     mean       161.440357
@@ -4728,8 +4756,6 @@ data = [
 df = pd.DataFrame(data)
 df
 ```
-
-
 
 
 <div>
@@ -4848,7 +4874,6 @@ df
 </div>
 
 
-
 Let's add a height column in the DataFrame
 
 
@@ -4857,8 +4882,6 @@ heights = [173, 175, 169]
 df['Height'] =heights
 df
 ```
-
-
 
 
 <div>
@@ -4916,7 +4939,6 @@ df
 </div>
 
 
-
 As you can see from the above DataFrame, now we new added columns, the Weight and Height. Let's add one additional column by called BMI(Body Mass Index) by calculating their BMI using thier mass and height. BMI is mass divided by height square meter(Weight/Height * Height).
 
 As you can see, the hieght is in centimeter, so we shoud change the height to meter. So, let's modify the height row
@@ -4929,9 +4951,6 @@ df['Height'] = df['Height'] * 0.01
 df
 
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -5078,14 +5097,10 @@ df
 
 The BMI of the above DataFrame has is float with many significant digits after decimal. Let's make it to have only one significant digit after point.
 
-
 ```python
 df['BMI'] = round(df['BMI'], 1)
 df
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -5146,7 +5161,6 @@ df
 </div>
 
 
-
 The information in the DataFrame seems not yet complete, let's add birth year and current year columns.
 
 
@@ -5157,9 +5171,6 @@ df['Birth Year'] = birth_year
 df['Current Year'] = current_year
 df
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -5540,7 +5551,7 @@ df['Ages']  = df[df['Ages'] > 120]
  * Filter the titles which contain JavaScript
  * Explore the data and make sense of the data
 
-<h1 align="center" style="color:#306998;font-size:64px;">Challenges Coming ...<h1>
+<h1 align="center" style="color:#306998;font-size:64px;">Challenges Coming ...</h1>
 
 Write python comment
 Declare different varaibles
