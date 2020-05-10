@@ -6,11 +6,11 @@
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> June 2019</small>
-</sub>
 
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+  <small> June 2019</small>
+  </sub>
 </div>
 
 <h1 align="center" style="color:#306998;font-size:64px;">INTRODUCTION</h1>
