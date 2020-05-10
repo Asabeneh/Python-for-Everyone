@@ -6,7 +6,6 @@
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
-
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> June 2019</small>
@@ -1275,7 +1274,7 @@ nums_sort =nums_one.sort() # mutate the original list and return None
 print(nums_one)
 print(nums_sort) # return None
 nums_two = [3,1,4,2,5]
-nums_sorted = sorted(nums_two) # mutate the original list
+nums_sorted = sorted(nums_two) # Do not mutate the original list
 print(nums_two)
 print(nums_sorted)
 ```
@@ -2357,7 +2356,7 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 <h1 align="center" style="color:#306998;font-size:64px;">REGULAR EXPRESSONS</h1>
 
-# 📘 Day 18
+
 
 ## Regular Expression
 
@@ -4016,7 +4015,7 @@ To summarise, the main differences with python lists are:
 1. An equivalent numpy array occupies much less space than a python list of lists.
 1. numpy arrays support boolean indexing.
 
-## 💻 Exercises: Day 24
+## 💻 Exercises: 
 1. Repeat all the examples
 
 ## Pandas
@@ -5540,7 +5539,7 @@ df['Ages']  = df[df['Ages'] > 120]
         
 ```
 
-## Exercises: Day 25
+## Exercises: 
 
 1. Read the hacker_ness.csv file from data directory 
 1. Get the first five rows
