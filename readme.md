@@ -222,7 +222,7 @@ A collection of one or more characters under a single or double quote. If a stri
 'Finland'
 'Python'
 'I love teaching'
-'I hope you are enjoying the first day'
+'I hope you are enjoying Python for Everyone'
 ```
 
 #### Booleans
@@ -322,7 +322,7 @@ To run the python file check the image below. You can run the python file either
 
 ![Running python script](./images/running_python_script.png)
 
-🌕 You are amazing. You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and for your muscle.
+
 
 <h1 align="center" style="color:#306998;font-size:64px;">COMMENT</h1>
 
