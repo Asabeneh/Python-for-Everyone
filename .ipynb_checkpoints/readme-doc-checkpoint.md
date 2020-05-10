@@ -1,0 +1,3059 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"background-color:#306998;color:#FFD43B;font-size:64px;font-family:sans;padding:20px\">PYTHON FOR EVERYONE<h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">INTRODUCTION</h1>\n",
+    "\n",
+    "Python for Everyon is a step by step guide to learn Python and programming in general. ***Python For Everyone*** is a guide for both beginners and advanced Python developers. Welcome to *Python For Everyone*. \n",
+    "\n",
+    "***Congratulations*** for deciding to learn Python. Python is eating the world. It has been the choice for developers to use python for different puprpose specifically to deal with data.\n",
+    "\n",
+    "In this step by step guide, you will learn Pyton. Python is one of the most popular programming language. \n",
+    "You use Python ***to develop web applicaton***, ***to develop mobile apps***, ***desktop applications, games*** and mostly Python is use for ***data Sciecne***, ***machine learning*** and ***AI***.\n",
+    "***Python*** has increased in popularity in recent years and has been the leading\n",
+    "programming language for data science and machine language."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">SET UP</h1>\n",
+    "\n",
+    "First install [Python](https://www.python.org/downloads/).\n",
+    "To write python code, we need to have a code editor. Lets install text or code editor. There are many open source code editors which can help you to write python code. These are the most commonly used ones:\n",
+    "- [Jupter Note book](https://www.anaconda.com/distribution/)\n",
+    "- [vscode](https://code.visualstudio.com/)\n",
+    "- [pycharm](https://www.jetbrains.com/pycharm/)\n",
+    "- [atom](https://atom.io/)\n",
+    "- [notepad++](https://notepad-plus-plus.org/) or others.\n",
+    "\n",
+    "Jupter Notebook is highly recommended. You can use jupter note book by installing [anaconda](https://www.anaconda.com/distribution/). Anaconda is the most popular Python/R platform which allow you to use different development tools and making package installing so simple.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">COMMENT</h1>\n",
+    "\n",
+    "Comment is essential to make code readable to ourselves or for others. Commented part of our code is not interperated by Python interperator."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# This is a single line comment"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Exerciese:\n",
+    "- Write your first python comment\n",
+    "- Write an other more python comment\n",
+    "- Write you third pyhon comment\n",
+    "- Write a comment which says I am exited to learn Python Programming.\n",
+    "- Write a comment which says It is recommended to add a comment at the beginning of a code\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\"> PRINTING USING PYTHON</h1>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, World!\n",
+      "Hello, World !\n",
+      "Welcome to Python!\n",
+      "Learn python in 2019\n",
+      "Welcome to Python for Everyone\n",
+      "Welcome to Python for Everyone\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Printing in Python\n",
+    "print('Hello, World!')\n",
+    "print('Hello,', \"World\", \"!\")\n",
+    "print(\"Welcome to Python!\")\n",
+    "print('Learn python in', 2019)\n",
+    "print('Welcome to Python for Everyone')\n",
+    "print('Welcome','to', 'Python','for','Everyone')\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Exerciese:\n",
+    "\n",
+    "1. Writ a python comment saying 'How to print using print () at beginning of your code'\n",
+    "2. Print your first name using ***print()***\n",
+    "3. Print your last name using ***print ()***\n",
+    "4. Print your full name using ***print ()***\n",
+    "5. Print your country using ***print()***\n",
+    "6. Print your city using ***print()***\n",
+    "7. Print your age using ***print ()***\n",
+    "8. Print the year using ***print()***\n",
+    "9. Print your qualification or your job using I***print()***\n",
+    "10. Are you single or married ? Answer should be True or False. Print the answer using ***print()***\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">VARIABLES</h1>\n",
+    "\n",
+    "Variables are containers or a means to store data in computer memory. pneumonic varialbes recommend to use in many programming langauges. \n",
+    "\n",
+    "Valid variable names\n",
+    "```shell\n",
+    "    firstname\n",
+    "    lastname\n",
+    "    age\n",
+    "    country\n",
+    "    city\n",
+    "    first_name\n",
+    "    last_name\n",
+    "    capital_city\n",
+    "    _if # if we want to use reservered word as a variable\n",
+    "    first_name\n",
+    "    year_2019\n",
+    "    year2019\n",
+    "    current_year_2019\n",
+    "    num1\n",
+    "    num2\n",
+    "```\n",
+    "\n",
+    "Invalid varaible names\n",
+    "- first-name\n",
+    "- num-1\n",
+    "- 1num\n",
+    "\n",
+    "In Pyton For Everyone, we will use standard python varible naming which has been adopted by many python developers. The example below is an example of standard naming of variables, underscore when the variable name is long. \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "First name: Asabeneh\n",
+      "Last name:  Yetayeh\n",
+      "Country:  Helsinki\n",
+      "Age:  250\n",
+      "Married:  True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Variables in Python\n",
+    "\n",
+    "first_name = \"Asabeneh\"\n",
+    "last_name = \"Yetayeh\"\n",
+    "country = \"Helsinki\"\n",
+    "age = 250\n",
+    "is_married = True\n",
+    "# Printing the values stored in the variables\n",
+    "print('First name:', first_name)\n",
+    "print('Last name: ', last_name)\n",
+    "print('Country: ', country)\n",
+    "print('Age: ', age)\n",
+    "print('Married: ', is_married)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Variable can also be declared in one line:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh Yetayeh Helsink 250 True\n",
+      "First name: Asabeneh\n",
+      "Last name:  Yetayeh\n",
+      "Country:  Helsink\n",
+      "Age:  250\n",
+      "Married:  True\n"
+     ]
+    }
+   ],
+   "source": [
+    "first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True\n",
+    "print(first_name, last_name, country, age, is_married)\n",
+    "print('First name:', first_name)\n",
+    "print('Last name: ', last_name)\n",
+    "print('Country: ', country)\n",
+    "print('Age: ', age)\n",
+    "print('Married: ', is_married)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Exerciese: Variables\n",
+    "1. Writ a python comment saying 'Variables in python'\n",
+    "2. Declare a first name variable and assign a value to it\n",
+    "3. Declare a last name variable and assign a value to it\n",
+    "4. Declare a full name variable and assign a value to it\n",
+    "5. Declare a country variable and assign a value to it\n",
+    "6. Declare a city variable and assign a value to it\n",
+    "7. Declare an age varialbel and assign a value to it\n",
+    "8. Declare a year varaible and assign  a value to it\n",
+    "9. Declare a variable is_married and assign a value to it\n",
+    "10. Declare a variable is_true and assign a value to it\n",
+    "11. Declare a variable is_light_on and assign a value to it\n",
+    "12. Declare multiple variable on one line"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Getting User Input"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your name ?Asabeneh\n",
+      "How old are you ?100\n",
+      "Asabeneh , you are old enough\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input('What is your name ?')\n",
+    "age = int(input('How old are you ?'))\n",
+    "\n",
+    "if age < 18:\n",
+    "    print(name,' you are under age')\n",
+    "else:\n",
+    "    print(name, ', you are old enough')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">PYTHON DATA TYPES</h1>\n",
+    "\n",
+    "Different data types in python. There are different data type in python programming. To identify the data tpe we use the type method."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'complex'>\n",
+      "<class 'bool'>\n",
+      "<class 'list'>\n",
+      "<class 'dict'>\n",
+      "<class 'tuple'>\n",
+      "<class 'zip'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Different python data types\n",
+    "# Let's declare different data tyeps\n",
+    "\n",
+    "first_name = 'Asabeneh' # String\n",
+    "last_name = 'Yetayeh' # String\n",
+    "country = 'Finland' # String\n",
+    "city= 'Helsinki'\n",
+    "age = 250 # Number, it is not my real age, don't worry about it\n",
+    "\n",
+    "print(type('Asabeneh'))\n",
+    "print(type(first_name))\n",
+    "print(type(10))\n",
+    "print(type(3.14))\n",
+    "print(type(1 + 1j))\n",
+    "print(type(True))\n",
+    "print(type([1, 2,3,4]))\n",
+    "print(type({\"name\":\"Asabeneh\",\"age\":250, \"is_married\":250}))\n",
+    "print(type((1,2)))\n",
+    "print(type(zip([1,2],[3,4])))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Exerciese: Data Types\n",
+    "\n",
+    "1. Writ a python comment saying 'Python Data types'\n",
+    "2. Declare a first name variable and assign a value to it\n",
+    "3. Declare a last name variable and assign a value to it\n",
+    "4. Declare an age varialbel and assign a value to it\n",
+    "5. Declare a full name variable and assign a value to it\n",
+    "6. Declare a country variable and assign a value to it\n",
+    "7. Declare a city variable and assign a value to it\n",
+    "8. Declare a variable is_married and assign a value to it\n",
+    "9. Declare a variable is_true and assign a value to it\n",
+    "10. Declare a variable is_light_on and assign a value to it\n",
+    "11. Check the data types of each variable using type()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Numbers\n",
+    "1. Integers\n",
+    "2. Floating Numbers\n",
+    "3. Complex Numbers\n",
+    "\n",
+    "Numbers are python data types. \n",
+    "Arthimetic Operators: +, -, *, /"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Additon:  3\n",
+      "Substraction:  1\n",
+      "Multiplication:  6\n",
+      "Division:  2.0\n",
+      "Division:  3.0\n",
+      "Division:  3.5\n",
+      "Division without the remainder:  3\n",
+      "Modulous:  1\n",
+      "Division without the remainder:  2\n",
+      "Exponentation:  9\n",
+      "Floating Number 3.14\n",
+      "Complex number:  (1+1j)\n",
+      "Multiplying complext number:  (2+0j)\n",
+      "== Additon, Subtraction, Multipliation, Division, Modules ==\n",
+      "sum:  7\n",
+      "difference:  1\n",
+      "product:  12\n",
+      "division:  1.0\n",
+      "remainder:  1\n",
+      "735.75 N\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Arthimetic Operations in Python\n",
+    "# Integers\n",
+    "\n",
+    "print('Additon: ', 1 + 2)\n",
+    "print('Substraction: ', 2 - 1)\n",
+    "print('Multiplication: ', 2 * 3)\n",
+    "print ('Division: ', 4 / 2) # Division in python gives floating number\n",
+    "print('Division: ', 6 / 2)\n",
+    "print('Division: ', 7 / 2)\n",
+    "print('Division without the remainder: ', 7 // 2) # gives without the floating number or without the remaining\n",
+    "print('Modulous: ', 3 % 2)\n",
+    "print ('Division without the remainder: ',7 // 3)\n",
+    "print('Exponentation: ', 3 ** 2)\n",
+    "# Floating numbers\n",
+    "print('Floating Number', 3.14)\n",
+    "# Complex numbers\n",
+    "print('Complex number: ', 1+1j)\n",
+    "print('Multiplying complext number: ',(1+1j) * (1-1j))\n",
+    "\n",
+    "\n",
+    "print('== Additon, Subtraction, Multipliation, Division, Modules ==')\n",
+    "\n",
+    "num_one = 3\n",
+    "num_two = 4\n",
+    "\n",
+    "total = num_one + num_two\n",
+    "diff = num_two - num_one\n",
+    "product = num_one * num_two\n",
+    "div = num_two / num_two\n",
+    "remainder = num_two % num_one\n",
+    "\n",
+    "\n",
+    "print('sum: ', total)\n",
+    "print('difference: ', diff)\n",
+    "print('product: ', product)\n",
+    "print('division: ', div)\n",
+    "print('remainder: ', remainder)\n",
+    "\n",
+    "mass = 75\n",
+    "gravity = 9.81\n",
+    "# Calcualte the wieght of the object on planet earth\n",
+    "weight = mass * gravity\n",
+    "\n",
+    "print(weight, 'N')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Exerciese: Numbers\n",
+    "\n",
+    "1. Declare your age as integer variable\n",
+    "2. Declare your height as a float variable\n",
+    "3. Declare a complex number variable\n",
+    "4. Calcaulate an area of a triangle (area = 0.5 x  b x h)\n",
+    "5. Calaculate the primeter of triangle (p = a + b + c)\n",
+    "6. Calaculate the of area rectangle (area = lenght x width)\n",
+    "7. Calaculate the primeter of rectangle (p = 2 x (length + width))\n",
+    "8. Calculate the area of a circle (area = 3.14 x r x r)\n",
+    "9. Calculate the circumference of a circle(c = 2 x pi x r)\n",
+    "10. Calculate the value of y (y = x2 + 6x + 9). Try to use different x value and figure out at what x value y is 0."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "## Strings\n",
+    "String is data type. Any data under single or double quot are a string. There are diferent string methods to deal with string data types. To check the length of a string use the ***len()*** method."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh\n",
+      "8\n",
+      "Yetayeh\n",
+      "7\n",
+      "Helsinki\n",
+      " \n",
+      " Asabeneh Yetayeh\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Assigning variables to string value\n",
+    "\n",
+    "first_name = \"Asabeneh\"\n",
+    "space = ' ' # an empty space string\n",
+    "last_name = \"Yetayeh\"\n",
+    "country = \"Helsinki\"\n",
+    "full_name = ' Asabeneh Yetayeh'\n",
+    "\n",
+    "print(first_name)\n",
+    "print(len(first_name))\n",
+    "print(last_name)\n",
+    "print(len(last_name))\n",
+    "print(country)\n",
+    "print(space)  # You don't see the printed empty space\n",
+    "print(full_name) # there is indent because of the trailing space in the full name is string\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### String Concatination\n",
+    "Merging two or more strings together is called ***concatination***"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Full name:  Asabeneh Yetayeh\n",
+      "Person Information: I am Asabeneh Yetayeh. I live in Finland, Helsinki.\n",
+      "Git repository:  Python  for  Everyone\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "# String concatination\n",
+    "first_name = \"Asabeneh\"\n",
+    "space = ' ' # an empty space string\n",
+    "last_name = \"Yetayeh\"\n",
+    "country = \"Finland\"\n",
+    "city = 'Helsinki'\n",
+    "full_name = first_name  + space + last_name\n",
+    "git_repo= 'Python ' + ' for ' + ' Everyone'\n",
+    "person_info = 'I am ' + full_name + '. I live in ' + country + ', '+ city + '.'\n",
+    "print('Full name: ', full_name)\n",
+    "print('Person Information:', person_info)\n",
+    "print('Git repository: ', git_repo)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "###  String transformations\n",
+    "\n",
+    "- ***s.lower()***:  Change all letters to lowercase\n",
+    "- ***s.upper()***:  Change all letters to uppercase\n",
+    "- ***s.capitalize()***: Change all letters to capitalcase\n",
+    "- ***s.title()***: Change to titlecase\n",
+    "- ***s.swapcase()***: Change all uppercase letters to lowercase, and vice versa"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "=== change to lower case ===\n",
+      "asabeneh\n",
+      "yetayeh\n",
+      "asabeneh yetayeh\n",
+      "=== change to upper case ===\n",
+      "ASABENEH\n",
+      "YETAYEH\n",
+      "ASABENEH YETAYEH\n",
+      "=== change to capitalize ===\n",
+      "Asabeneh\n",
+      "Yetayeh\n",
+      "Asabeneh yetayeh\n",
+      "=== change to title ===\n",
+      "Python For Everyone\n",
+      "Learning Programming Using Python\n",
+      "Python\n",
+      "Both Begineer And Advanced Learners\n",
+      "=== swapping cases ===\n",
+      "asabeeh\n",
+      "YETAYEH\n",
+      "asabeeh YETAYEH\n"
+     ]
+    }
+   ],
+   "source": [
+    "firstName = 'Asabeneh'\n",
+    "lastName = 'Yetayeh'\n",
+    "space = ' '\n",
+    "full_Name = first_name + space + last_name;\n",
+    "\n",
+    "# Changing string to lower case\n",
+    "print('=== change to lower case ===')\n",
+    "print(first_name.lower())\n",
+    "print(last_name.lower())\n",
+    "print(full_Name.lower())\n",
+    "\n",
+    "# Changing string to upper case\n",
+    "print('=== change to upper case ===')\n",
+    "print(first_name.upper())\n",
+    "print(lastName.upper())\n",
+    "print(full_Name.upper())\n",
+    "\n",
+    "\n",
+    "# Changing string to capitalize\n",
+    "print('=== change to capitalize ===')\n",
+    "print(first_name.capitalize())\n",
+    "print(lastName.capitalize())\n",
+    "print(full_Name.capitalize())\n",
+    "\n",
+    "# Changing string to capitalize\n",
+    "\n",
+    "print('=== change to title ===')\n",
+    "title = 'python for everyone'\n",
+    "sub_title = 'learning programming using python'\n",
+    "lang = 'python'\n",
+    "level = 'both begineer and advanced learners'\n",
+    "print(title.title())\n",
+    "print(sub_title.title())\n",
+    "print(lang.title())\n",
+    "print(level.title())\n",
+    "\n",
+    "# Changing string to swapcase()\n",
+    "print('=== swapping cases ===')\n",
+    "\n",
+    "first_name = 'ASABEEH'\n",
+    "last_name = 'yetayeh'\n",
+    "space = ' '\n",
+    "full_name = first_name + space + last_name;\n",
+    "\n",
+    "print(first_name.swapcase())\n",
+    "print(last_name.swapcase())\n",
+    "print(full_name.swapcase())\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Spliting string\n",
+    "\n",
+    "Empty space is the default paramter. \n",
+    "\n",
+    "- ***s.split()***:  Change the string to a list containing the string\n",
+    "- ***s.split(' ')***:Change the string to a list containing the words of in the string\n",
+    "- ***s.split(',')***: split the words at the comma\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Asabeneh']\n",
+      "['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']\n",
+      "['Asabeneh', 'Yetayeh']\n",
+      "['python', ' R', ' matlab', ' and Java']\n",
+      "8\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Spliting a stirng to list\n",
+    "first_name = 'Asabeneh'\n",
+    "last_name = 'Yetayeh'\n",
+    "full_name = 'Asabeneh Yetayeh'\n",
+    "\n",
+    "programming_lang = 'python, R, matlab, and Java'\n",
+    "\n",
+    "\n",
+    "# Changing a string to list\n",
+    "print(first_name.split())\n",
+    "print(list(first_name))\n",
+    "print(full_name.split(' '))\n",
+    "print(programming_lang.split(','))\n",
+    "\n",
+    "\n",
+    "# To check the length of string\n",
+    "print(len(first_name))\n",
+    "\n",
+    "# To check the data type of the string\n",
+    "print(type(first_name))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### String Formatting"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercises- Strings\n",
+    "\n",
+    "1. Concatinate the string 'Python', 'For','Everyone' to a single string, 'Python for Everyone'\n",
+    "1. Concatinate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'\n",
+    "1. Declare a variable name company and assign it to an initial value **\"Coding For All\"**.\n",
+    "1. Print company using __print()__\n",
+    "1. Print the __length__ of the company string using ***len()*** method and  _print()_\n",
+    "1. Change all the string to capital letters using __upper()__ method\n",
+    "1. Change all the string to lowercase letters using __lower()__ method\n",
+    "1. Use ***capitalize(),title(), swapcase()*** methods to format the value stored in the varaible name company\n",
+    "1. Cut(slice) out the first word of the company string \n",
+    "1. Check if the string contains a word __Coding__ using the method index, find or other methods.\n",
+    "1. Replace the word coding in the string 'Coding For All' to Python using replace or other methods.\n",
+    "1. Change Python for Everyone to Python for All using the replace method or other methods\n",
+    "1. Split the string 'Coding For All' at the space using __split()__ method\n",
+    "1. \"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon\" __split__ the string at the comma\n",
+    "1. What is character at index 10 in \"Coding For All\"\n",
+    "1. Create an acronym or an abbrivaton for the name 'Python For Everyone'\n",
+    "1. Create an acronym or an abbrivaton for the name 'Coding For All'\n",
+    "1. Use __index__ to determine the position of the first occurrence of C in Coding For All\n",
+    "1. Use __index__ to determine the position of the first occurrence of F in Coding For All\n",
+    "1. Use __rfind__ to determine the position of the last occurrence of l in Coding For All People.\n",
+    "1. Use __index or find__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__\n",
+    "1. Use __rindex__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__\n",
+    "1. Slice out the phase __because because because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__\n",
+    "1. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__\n",
+    "1. Slice out the phase __because because because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__\n",
+    "1. Use __trim()__ to remove if there is trailing whitespace at the beginning and the end of a string.E.g \" Coding For All \".\n",
+    "1. Use __startswith()__ method with the string Coding For All make the result true\n",
+    "1. Use __endswith()__ method with the string Python for Everyone make the result true\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Booleans\n",
+    "A boolean value is either True or False.\n",
+    "\n",
+    "- Comparison operatiors: >, >=, <, <=, ==, !=\n",
+    "- Logical Operators ***or***, ***and***, !"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Data Type Conversion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "<class 'str'>\n",
+      "10\n",
+      "<class 'int'>\n",
+      "10.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "num_str = '10'\n",
+    "print(num_str)\n",
+    "print(type(num_str))\n",
+    "\n",
+    "num_int = int(num)\n",
+    "print(num_int)\n",
+    "print(type(num_int))\n",
+    "\n",
+    "num_float = float(num_str)\n",
+    "print(num_float)\n",
+    "\n",
+    "e = 2.71"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">CONDITIONALS </h1>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True == True:  True\n",
+      "True == False:  False\n",
+      "False == False: True\n",
+      "True and True:  True\n",
+      "True or False: True\n",
+      "a in an: True\n",
+      "4 is 2 ** 2: True\n",
+      "True\n",
+      "True\n",
+      "True\n",
+      "False\n",
+      "False\n",
+      "False\n",
+      "True\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Comparing something give either a True or False\n",
+    "print('True == True: ', True == True)\n",
+    "print('True == False: ', True == False)\n",
+    "print('False == False:', False == False)\n",
+    "print('True and True: ', True and True)\n",
+    "print('True or False:', True or False)\n",
+    "print('a in an:', 'a' in 'an')\n",
+    "print('4 is 2 ** 2:', 4 is 2 **2)\n",
+    "\n",
+    "print(3 > 2)\n",
+    "print(3 >= 2)\n",
+    "print(3 != 2)\n",
+    "print(3 < 2)\n",
+    "print(3 <= 2)\n",
+    "print(3==2)\n",
+    "print(3!='3')\n",
+    "print(3==3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number is greater than 5\n",
+      "Number is greater than 5\n",
+      "Number is 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = 10\n",
+    "if num > 5:\n",
+    "    print('Number is greater than 5')\n",
+    "# The is conditon does't get exected so we need else\n",
+    "if num < 5:\n",
+    "    print('Number is less than 5')\n",
+    "\n",
+    "if num < 5:\n",
+    "    print('Number is less than 5')\n",
+    "else:\n",
+    "    print('Number is greater than 5')\n",
+    "    \n",
+    "num = 5\n",
+    "if num < 5:\n",
+    "    print('Number is less than 5')\n",
+    "elif num == 5:\n",
+    "    print('Number is 5')\n",
+    "else:\n",
+    "    print('Number is greater than 5')\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercises: Conditional\n",
+    "1. Get user input using input(“Enter your age:”). If user is 18 or older , give feedback:You are old enough to drive but if not 18 give feedback to wait for the years he supposed to wait for.\n",
+    "   Output:\n",
+    "   ```sh\n",
+    "   Enter your age: 30\n",
+    "   You are old enough to drive.\n",
+    "   ```\n",
+    "   Output:\n",
+    "   ```sh\n",
+    "   Enter your age:15\n",
+    "   You are left with 3 years to drive.\n",
+    "   ```\n",
+    "1. Compare the values of myAge and yourAge using if … else. Based on the comparison log to console who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.\n",
+    "   Output:\n",
+    "   ```sh\n",
+    "   Enter your age: 30\n",
+    "   You are 5 years older than me.\n",
+    "   ```\n",
+    "1. If a is greater than b return a is greater than b else a is less than b.\n",
+    "   Output:\n",
+    "   `sh let a = 4; let b = 3; 4 is greater than 3`\n",
+    "1. Write a code which give grade students according to theirs scores:\n",
+    "   - 80-100, A\n",
+    "   - 70-89, B\n",
+    "   - 60-69, C\n",
+    "   - 50-59, D\n",
+    "   - 0 -49, F\n",
+    "1. Check if the season is Autumn, Winter, Spring or Summer.\n",
+    "   If the user input is:\n",
+    "   - September, October or November, the season is Autumn.\n",
+    "   - December, January or February, the season is Winter.\n",
+    "   - March, April or May, the season is Spring\n",
+    "   - June, July or August, the season is Summer\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">LOOPS</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### For loops:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "=== Whole Numbers===\n",
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "=== Even Numbers===\n",
+      "0\n",
+      "2\n",
+      "4\n",
+      "6\n",
+      "8\n",
+      "10\n",
+      "=== Odd Numbers===\n",
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('=== Whole Numbers===')\n",
+    "for x in range(11):\n",
+    "    print(x)\n",
+    "\n",
+    "print('=== Even Numbers===')\n",
+    "# the range(initial, stop, step)\n",
+    "for n in range(0, 11, 2):\n",
+    "    print(n)\n",
+    "    \n",
+    "print('=== Odd Numbers===')\n",
+    "# the range(initial, stop, step)\n",
+    "for n in range(1, 11, 2):\n",
+    "    print(n)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Continue and break in for loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for x in range(10):\n",
+    "    if (x is 1):\n",
+    "        continue\n",
+    "    if (x > 5):\n",
+    "        break\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### While Loop\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 0\n",
+    "while (x < 10):\n",
+    "    print(x)\n",
+    "    x += 1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercises\n",
+    "1. Iterate 0 to 10 using for loop, do the same using while and do while loop.\n",
+    "1. Iterate 10 to 0 using for loop, do the same using while and do while loop.\n",
+    "1. Write a loop that makes seven calls to print() to output the following triangle:\n",
+    "   ```python\n",
+    "       #\n",
+    "       ##\n",
+    "       ###\n",
+    "       ####\n",
+    "       #####\n",
+    "       ######\n",
+    "       #######\n",
+    "   ```\n",
+    "1. Use nested loops to create the following:\n",
+    "```sh\n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "    # # # # # # # # \n",
+    "```\n",
+    "1. Iterate the list, ['Python', 'Numpy','Pandas','Data Science', AI','ML'] using a for loop and print out the items.\n",
+    "1. Use for loop to iterate from 0 to 100 and print only even numbers\n",
+    "1. Use for loop to iterate from 0 to 100 and print only odd numbers\n",
+    "1. Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.\n",
+    "   ```python\n",
+    "    # The sum of all numbers is 5050.\n",
+    "   ```\n",
+    "1. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.\n",
+    "   ```python\n",
+    "   # The sum of all evens is 2550. And the sum of all odds is 2500.\n",
+    "    ```"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "# Lists\n",
+    "Lists are like arrays in JavaScript. They store different elements unlike other varialbles. List has different methods to modify and manipulate the list. Some of the methods which are used to modiyf lists **append**, **insert**, **extend**."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Creating an empty list or list containing values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'list'>\n",
+      "[]\n",
+      "[1, 2, 3, 4, 5, 6]\n",
+      "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+      "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]\n",
+      "['Asabeneh', 'Brook', 'Sami', 'David']\n",
+      "['Google', 'Facebook', 'Nokia', 'Apple', 'Oracle', 'Amazon', 'IBM']\n",
+      "[3.14, 9.81, 98.6, 100]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Creating lists\n",
+    "lst = [] # empty list\n",
+    "print(list)\n",
+    "lst = list() # empty list\n",
+    "print(lst)\n",
+    "numbers = [1, 2, 3, 4, 5, 6] # creating list 1 to 6\n",
+    "print(numbers)\n",
+    "one_to_hunderd = list(range(11)) # creating list 1 to 10\n",
+    "even_numbers = list(range(0,51, 2)) # Create even number lists 0 to 50\n",
+    "print(one_to_hunderd)\n",
+    "print(even_numbers)\n",
+    "\n",
+    "names = ['Asabeneh','Brook','Sami','David']\n",
+    "print(names)\n",
+    "it_companies = ['Google','Facebook','Nokia','Apple','Oracle','Amazon','IBM']\n",
+    "print(it_companies)\n",
+    "constants = [3.14, 9.81, 98.6, 100]\n",
+    "print(constants)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "is odd\n",
+      "2\n",
+      "is even\n",
+      "3\n",
+      "is odd\n",
+      "4\n",
+      "is even\n",
+      "5\n",
+      "is odd\n",
+      "6\n",
+      "is even\n",
+      "All done.\n"
+     ]
+    }
+   ],
+   "source": [
+    "for number in numbers:\n",
+    "    print(number)\n",
+    "    if (number % 2 == 0):\n",
+    "        print(\"is even\")\n",
+    "    else:\n",
+    "        print(\"is odd\")\n",
+    "        \n",
+    "print (\"All done.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Appending value  to lists"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Using different methods to manipulate lists. Slicing using :, appending, extending and inserting:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "# First lets create a list\n",
+    "x = [1, 2, 3, 4, 5, 6]\n",
+    "print(len(x)) # to check the length of the list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5, 6, 8, 9]"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.append(8)\n",
+    "x.append(9)\n",
+    "x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Inserting value among values in a list\n",
+    "Inserting a value at a certain index"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.insert(6,7) # the missing value in the list which is 7 is inserted\n",
+    "x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Use extend to two or more arrays together"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 10]"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.extend([9,10])\n",
+    "x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Slicing"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3]"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[:3]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[4, 5, 6, 7, 8, 9, 9, 10]"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[3:]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[9, 10]"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[-2:]\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Concating lists (Merging)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 3, 4, 5, 6]\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = [1, 2,3]\n",
+    "b = [4, 5,6]\n",
+    "c = a + b\n",
+    "print(c)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "List of lists"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[1, 2, 3], [4, 5, 6]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = [1, 2,3]\n",
+    "y = [4, 5,6];\n",
+    "z = [x, y]\n",
+    "print(z)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "[1, 2, 3]\n",
+      "1\n",
+      "[4, 5, 6]\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x[0])\n",
+    "print(z[0])\n",
+    "print(z[0][0])\n",
+    "print(z[1])\n",
+    "print(z[1][0])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3]"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z = [3, 2, 1]\n",
+    "z.sort()\n",
+    "z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3, 2, 1]"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z.sort(reverse=True)\n",
+    "z"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Sort vs Sorted in list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 3, 4, 5]\n",
+      "None\n",
+      "[3, 1, 4, 2, 5]\n",
+      "[1, 2, 3, 4, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "nums_one = [3,1,4,2,5]\n",
+    "nums_sort =nums_one.sort() # mutate the original list and return None\n",
+    "print(nums_one)\n",
+    "print(nums_sort) # return None\n",
+    "nums_two = [3,1,4,2,5]\n",
+    "nums_sorted = sorted(nums_two) # mutate the original list\n",
+    "print(nums_two)\n",
+    "print(nums_sorted)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Getting index of a list using enumerate"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "index: 0 2\n",
+      "index: 1 4\n",
+      "index: 2 6\n",
+      "index: 3 8\n",
+      "index: 4 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "even_nums = [2,4,6,8,10]\n",
+    "for i, n in enumerate(even_nums):\n",
+    "    print('index:',i, n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "index: 0 0\n",
+      "index: 1 1\n",
+      "index: 2 2\n",
+      "index: 3 3\n",
+      "index: 4 4\n",
+      "index: 5 5\n",
+      "index: 6 6\n",
+      "index: 7 7\n",
+      "index: 8 8\n",
+      "index: 9 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i, n in enumerate(range (10)):\n",
+    "    print('index:',i, n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "(name, age) = ['Asabeneh', 250]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh 250\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name, age)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## List Comprehension"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[i  for i in range (11)] # list of whole numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[i * i for i in range (11)] # List of squares "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]\n"
+     ]
+    }
+   ],
+   "source": [
+    "even_nums = [i for i in range(51) if i % 2 == 0] # List of even numbers\n",
+    "print(even_nums)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]\n"
+     ]
+    }
+   ],
+   "source": [
+    "odds = [i for i in range(51) if i % 2 != 0] # List of odd numbers\n",
+    "print(odds)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 4, 9, 16, 25]"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "numbers = [1, 2, 3,4,5]\n",
+    "[n * n for n in numbers]  # maping using list comprehension\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ASABENEH', 'BROOK', 'DAVID', 'MARTHA']"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "names = ['Asabeneh','Brook','David','Martha']\n",
+    "[name.upper () for name in names] # Mapping using list comprehension"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 4, 6]"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "numbers = [-4, -3, -2, -1, 0, 2, 4, 6]\n",
+    "[n for n in numbers if n > 0] # Filtering using list comprehension"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercises\n",
+    "\n",
+    "1. Declare an _empty_ list;\n",
+    "1. Declare a list with more than 5 number of items\n",
+    "1. Find the length of your list\n",
+    "1. Get the first item, the middle item and the last item of the list\n",
+    "1. Declare a list called _mixed_data_types_,put different data types and in your array and the array size should be greater than 5\n",
+    "1. Declare a list variable name it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.\n",
+    "1. Print the list using _print()_\n",
+    "1. Print the number of companies in the list\n",
+    "1. Print the first, middle and last company\n",
+    "1. Print out each company\n",
+    "1. Change companies to uppercase and print them out\n",
+    "1. Print the list like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.\n",
+    "1. Check if a certain company exists in the it_companies list. If it exist return the company else return a company is _not found_.\n",
+    "1. Filter out companies which have more than one 'o' without the filter method\n",
+    "1. Sort the array using _sort()_ method\n",
+    "1. Reverse the array without method\n",
+    "1. Reverse the array using  method\n",
+    "1. Slice out the first 3 companies from the list\n",
+    "1. Slice out the last 3 companies from the list\n",
+    "1. Slice out the middle IT company or companies from the list\n",
+    "1. Remove the first IT company from the array\n",
+    "1. Remove the middle IT company or companies from the list\n",
+    "1. Remove the last IT company from the list\n",
+    "1. Remove all IT companies\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "##  Tuples\n",
+    "###  Creating Tuples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'tuple'>\n",
+      "<class 'tuple'>\n",
+      "(1, 2, 3)\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 85,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Tuples are just immutable lists. Use () instead of []\n",
+    "tp = tuple()\n",
+    "print(type (tp))\n",
+    "tp = ()\n",
+    "print(type(tp))\n",
+    "nums = (1, 2, 3)\n",
+    "print(nums)\n",
+    "len(nums)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "for n in nums:\n",
+    "    print(n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 87,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = (1, 2, 3)\n",
+    "y = (4, 5, 6)\n",
+    "print(x[0])\n",
+    "y[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(1, 2, 3), (4, 5, 6)]"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list_of_tuples = [x, y]\n",
+    "list_of_tuples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "32\n",
+      "120000\n"
+     ]
+    }
+   ],
+   "source": [
+    "(age, income) = \"32,120000\".split(',')\n",
+    "print(age)\n",
+    "print(income)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "numbers = [1, 2, 3,4,5]\n",
+    "[(n,n * n) for n in numbers]  # maping using list comprehension\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[('ASABENEH', 8), ('BROOK', 5), ('DAVID', 5), ('MARTHA', 6)]"
+      ]
+     },
+     "execution_count": 91,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "names = ['Asabeneh','Brook','David','Martha']\n",
+    "[(name.upper (), len(name)) for name in names] # Mapping using list comprehension"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Dictionaries"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'name': 'Asabenh', 'age': 250, 'country': 'Finland', 'city': 'Helsinki', 'job': 'instructor and developer', 'skills': ['HTML', 'CSS', 'JavaScript', 'Python', 'Node'], 'is_married': True}\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Creating empty dictionary\n",
+    "\n",
+    "dic = dict()\n",
+    "dic = {}\n",
+    "\n",
+    "# Another more dictionary\n",
+    "person = {\n",
+    "    'name':'Asabenh',\n",
+    "    'age':250, \n",
+    "    'country':'Finland',\n",
+    "    'city':'Helsinki', \n",
+    "    'job':'instructor and developer',\n",
+    "    'skills':['HTML','CSS','JavaScript','Python','Node'],\n",
+    "    'is_married':True\n",
+    "}\n",
+    "print(person)\n",
+    "print(len(person))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'name': 'Asabenh', 'age': 250, 'country': 'Finland', 'city': 'Helsinki', 'job': 'instructor and developer', 'skills': ['HTML', 'CSS', 'JavaScript', 'Python', 'Node'], 'is_married': True}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(person)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabenh\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(person[\"name\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "250\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(person[\"age\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 96,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(person.get(\"is_married\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name: Asabenh\n",
+      "age: 250\n",
+      "country: Finland\n",
+      "city: Helsinki\n",
+      "job: instructor and developer\n",
+      "skills: ['HTML', 'CSS', 'JavaScript', 'Python', 'Node']\n",
+      "is_married: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "for key in person:\n",
+    "        print(key + \": \" + str(person[key]))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Dictionary Methods\n",
+    "**keys**, **values**, **items**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dict_keys(['name', 'age', 'country', 'city', 'job', 'skills', 'is_married'])\n",
+      "dict_values(['Asabenh', 250, 'Finland', 'Helsinki', 'instructor and developer', ['HTML', 'CSS', 'JavaScript', 'Python', 'Node'], True])\n",
+      "dict_items([('name', 'Asabenh'), ('age', 250), ('country', 'Finland'), ('city', 'Helsinki'), ('job', 'instructor and developer'), ('skills', ['HTML', 'CSS', 'JavaScript', 'Python', 'Node']), ('is_married', True)])\n"
+     ]
+    }
+   ],
+   "source": [
+    "keys = person.keys()\n",
+    "values = person.values()\n",
+    "items = person.items()\n",
+    "\n",
+    "print(keys)\n",
+    "print(values)\n",
+    "print(items)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name : Asabenh\n",
+      "age : 250\n",
+      "country : Finland\n",
+      "city : Helsinki\n",
+      "job : instructor and developer\n",
+      "skills : ['HTML', 'CSS', 'JavaScript', 'Python', 'Node']\n",
+      "is_married : True\n"
+     ]
+    }
+   ],
+   "source": [
+    "for k, v in items:\n",
+    "    print(k,':', v)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[{1: 1}, {2: 4}, {3: 9}, {4: 16}, {5: 25}]"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "numbers = [1, 2, 3,4,5]\n",
+    "[{n:n * n} for n in numbers]  # maping using list comprehension"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[{'Asabeneh': 8}, {'Brook': 5}, {'David': 5}, {'Martha': 6}]"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "names = ['Asabeneh','Brook','David','Martha']\n",
+    "[{name:len(name)} for name in names] # Mapping using list comprehension"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Unpacking lists, tupples"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Unpacking tuples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "Asabeneh\n",
+      "Yetayeh\n",
+      "Finland\n"
+     ]
+    }
+   ],
+   "source": [
+    "one, two, three = (1, 2,3)\n",
+    "print(one)\n",
+    "print(two)\n",
+    "print(three)\n",
+    "\n",
+    "first_name, last_name, country = ('Asabeneh','Yetayeh','Finland')\n",
+    "print(first_name)\n",
+    "print(last_name)\n",
+    "print(country)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Unpacking lists"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh\n",
+      "Eyob\n",
+      "['David', 'Lidiya', 'Woyneshet', 'Yetayeh']\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "[4, 5, 6, 7, 8, 9]\n",
+      "10\n",
+      "Germany\n",
+      "France\n",
+      "Belgium\n",
+      "Sweden\n",
+      "['Denmark', 'Finland', 'Norway', 'Iceland']\n",
+      "Estonia\n"
+     ]
+    }
+   ],
+   "source": [
+    "# First Example about unpacking list\n",
+    "names = ['Asabeneh','Eyob','David','Lidiya', 'Woyneshet','Yetayeh']\n",
+    "first_person, second_person, *rest = names\n",
+    "print(first_person)\n",
+    "print(second_person)\n",
+    "print(rest)\n",
+    "\n",
+    "# Second Example about unpacking list\n",
+    "first, second, third,*rest, tenth = [1,2,3,4,5,6,7,8,9,10]\n",
+    "print(first)\n",
+    "print(second)\n",
+    "print(third)\n",
+    "print(rest)\n",
+    "print(tenth)\n",
+    "\n",
+    "# Third Example about unpacking list\n",
+    "countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']\n",
+    "gr, fr, bg, sw, *scandic, es = countries\n",
+    "print(gr)\n",
+    "print(fr)\n",
+    "print(bg)\n",
+    "print(sw)\n",
+    "print(scandic)\n",
+    "print(es)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">SET </h1>\n",
+    "\n",
+    "Creating a set"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 5}\n",
+      "5\n",
+      "{1, 2, 3, 4, 5, 6, 7}\n",
+      "7\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = set()\n",
+    "s.add(1) # adding value to a set\n",
+    "s.add(2)\n",
+    "s.add(3)\n",
+    "s.add(4)\n",
+    "s.add(5)\n",
+    "print(s)\n",
+    "print(len(s))\n",
+    "\n",
+    "nums = [1, 2,2,3,4,5,4,6,7,6]\n",
+    "numbers = set(nums)\n",
+    "print(numbers)\n",
+    "print(len(numbers))\n",
+    "for n in numbers:\n",
+    "    print(n)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">FUNCTIONS</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function without parameter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh Yetayeh\n",
+      "5\n",
+      "Asabeneh Yetayeh\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "def generate_full_name ():\n",
+    "    first_name = 'Asabeneh'\n",
+    "    last_name = 'Yetayeh'\n",
+    "    space = ' '\n",
+    "    full_name = first_name + space + last_name\n",
+    "    print(full_name)\n",
+    "\n",
+    "generate_full_name () # calling a function\n",
+    "\n",
+    "def add_two_numbers ():\n",
+    "    num_one = 2\n",
+    "    num_two = 3\n",
+    "    total = num_one + num_two\n",
+    "    print(total)\n",
+    "add_two_numbers() # call the functionK\n",
+    "\n",
+    "# Function can also return values, if a function doen't return values the value of the function is None\n",
+    "# Lets rewrite the above functions using return\n",
+    "# From now on, we return value to a function instead of priting it\n",
+    "\n",
+    "def generate_full_name ():\n",
+    "    first_name = 'Asabeneh'\n",
+    "    last_name = 'Yetayeh'\n",
+    "    space = ' '\n",
+    "    full_name = first_name + space + last_name\n",
+    "    return full_name\n",
+    "print(generate_full_name())\n",
+    "\n",
+    "def add_two_numbers ():\n",
+    "    num_one = 2\n",
+    "    num_two = 3\n",
+    "    total = num_one + num_two\n",
+    "    return total\n",
+    "print(add_two_numbers())\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function with one parameter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Asabeneh, welcome to Python for Everyone!\n",
+      "100\n",
+      "4\n",
+      "314.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "def greetings (name):\n",
+    "    message = name + ', welcome to Python for Everyone!'\n",
+    "    return message\n",
+    "\n",
+    "print(greetings('Asabeneh'))\n",
+    "\n",
+    "def add_ten(num):\n",
+    "    ten = 10\n",
+    "    return num + ten\n",
+    "\n",
+    "print(add_ten(90))\n",
+    "    \n",
+    "\n",
+    "def square_number(x):\n",
+    "    return x * x\n",
+    "\n",
+    "print(square_number(2))\n",
+    "\n",
+    "def area_of_circle (r):\n",
+    "    PI = 3.14\n",
+    "    area = PI * r ** 2\n",
+    "    return area\n",
+    "\n",
+    "print(area_of_circle(10))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function with two parameter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Full Name:  Asabeneh Yetayeh\n",
+      "Sum of two numbers:  10\n",
+      "Age:  200\n",
+      "Weight of an object in Newton:  981.0 N\n"
+     ]
+    }
+   ],
+   "source": [
+    "def generate_full_name (first_name, last_name):\n",
+    "    space = ' '\n",
+    "    full_name = first_name + space + last_name\n",
+    "    return full_name\n",
+    "print('Full Name: ', generate_full_name('Asabeneh','Yetayeh'))\n",
+    "\n",
+    "def sum_two_numbers (num_one, num_two):\n",
+    "    sum = num_one + num_two\n",
+    "    return sum\n",
+    "print('Sum of two numbers: ', sum_two_numbers(1, 9))\n",
+    "\n",
+    "def calculate_age (current_year, birth_year):\n",
+    "    age = current_year - birth_year\n",
+    "    return age;\n",
+    "\n",
+    "print('Age: ', calculate_age(2019, 1819))\n",
+    "\n",
+    "def weight_of_object (mass, gravity):\n",
+    "    weight = str(mass * gravity)+ ' N' # the value has to be changed to string first\n",
+    "    return weight\n",
+    "print('Weight of an object in Newton: ', weight_of_object(100, 9.81))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function with arbitrary number of paramters"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "def sum_of_numbers(*args):\n",
+    "    s = 0;\n",
+    "    for i in args:\n",
+    "        s = s + i\n",
+    "    return s\n",
+    "print(sum_of_numbers(1,2,3))\n",
+    "print(sum_of_numbers(1,2,3, 4,5,6,7,8,9,10))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function with default parameter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 109,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Anonymous, welcome to Python for Everyone!\n",
+      "Asabeneh, welcome to Python for Everyone!\n",
+      "Asabeneh Yetayeh\n",
+      "David Smith\n",
+      "Age:  200\n",
+      "Weight of an object in Newton:  981.0 N\n",
+      "Weight of an object in Newton:  162.0 N\n"
+     ]
+    }
+   ],
+   "source": [
+    "def greetings (name = 'Anonymous'):\n",
+    "    message = name + ', welcome to Python for Everyone!'\n",
+    "    return message\n",
+    "\n",
+    "print(greetings())\n",
+    "print(greetings('Asabeneh'))\n",
+    "\n",
+    "def generate_full_name (first_name = 'Asabeneh', last_name = 'Yetayeh'):\n",
+    "    space = ' '\n",
+    "    full_name = first_name + space + last_name\n",
+    "    return full_name\n",
+    "\n",
+    "\n",
+    "\n",
+    "print(generate_full_name())\n",
+    "print(generate_full_name('David','Smith'))\n",
+    "\n",
+    "def calculate_age (birth_year,current_year = 2019):\n",
+    "    age = current_year - birth_year\n",
+    "    return age;\n",
+    "print('Age: ', calculate_age(1819))\n",
+    "\n",
+    "\n",
+    "def weight_of_object (mass, gravity = 9.81):\n",
+    "    weight = str(mass * gravity)+ ' N' # the value has to be changed to string first\n",
+    "    return weight\n",
+    "print('Weight of an object in Newton: ', weight_of_object(100)) # 9.81 gravity at the surface of Earth\n",
+    "print('Weight of an object in Newton: ', weight_of_object(100, 1.62)) # gravit at surface of Moon\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function with default parameter and aribtrary number of parameters"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Team-1\n",
+      "Asabeneh\n",
+      "Brook\n",
+      "David\n",
+      "Eyob\n"
+     ]
+    }
+   ],
+   "source": [
+    "def generate_groups (team,*args):\n",
+    "    print(team)\n",
+    "    for i in args:\n",
+    "        print(i)\n",
+    "generate_groups('Team-1','Asabeneh','Brook','David','Eyob')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Function as parameter of other function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "#You can pass functions around as parameters\n",
+    "def square_number (n):\n",
+    "    return n * n\n",
+    "def do_something(f, x):\n",
+    "    return f(x)\n",
+    "\n",
+    "print(do_something(square_number, 3))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Lamda Function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "27\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Lambda functions let you inline simple functions\n",
+    "print(do_something(lambda x: x * x * x, 3))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Exercises\n",
+    "\n",
+    "1. Declare a function _full_name_ and it print out your full name.\n",
+    "1. Declare a function _full_name_ and now it takes firstName, lastName as a parameter and it returns your full - name.\n",
+    "1. Declare a function _add_two_numbers_ and it takes two two parameters and it returns sum.\n",
+    "1. An area of a rectangle is calculated as follows: _area = lenght x width_. Write a function which calculates _area_of_rectangle_.\n",
+    "1. A perimeter of a rectangle is calculated as follows: _perimeter= 2x(lenght + width)_. Write a function which calculates _perimeter_of_rectangle_.\n",
+    "1. A volume of a rectangular prism is calculated as follows: _volume = lenght x width x height_. Write a function which calculates _volume_of_rect_prism_.\n",
+    "1. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates _area_of_circle_\n",
+    "1. Circumference of a circle is calculated as follows: _circumference = 2πr_. Write a function which calculates _circum_of_circle\n",
+    "1. Density of a substance is calculated as follows:_density= mass/volume_. Write a function which calculates _density_.\n",
+    "1. Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. Write a fucntion which calculates a speed of a moving object, _speed_.\n",
+    "1. Weight of a substance is calculated as follows: _weight = mass x gravity_. Write a function which calculates _weight_.\n",
+    "1. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which converst oC to oF _convert_celcius_to_fahrenheit_.\n",
+    "1. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obsese_ based the information given below.\n",
+    "   - The same groups apply to both men and women.\n",
+    "   - _Underweight_: BMI is less than 18.5\n",
+    "   - _Normal weight_: BMI is 18.5 to 24.9\n",
+    "   - _Overweight_: BMI is 25 to 29.9\n",
+    "   - _Obese_: BMI is 30 or more\n",
+    "1. Write a function called _check-season_, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.\n",
+    "1. Linear equation is calculated as follows: _ax + b = c_. Write a function which calculates value of a linear equation, _solve_linear_equation_.\n",
+    "1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solve_quadratic_equation_.\n",
+    "1. Declare a function name _print_list. It takes list as a parameter and it prints out each element of the list.\n",
+    "1. Declare a functin name _swap_values_. This function swaps value of x to y.\n",
+    "   ```python\n",
+    "       swap_values(3, 4) # x => 4, y=>3\n",
+    "       swap_values(4, 5) # x = 5, y = 4\n",
+    "   ```\n",
+    "1. Declare a function name _reverse_list_. It takes array as a parameter and it returns the reverse of the array (dont’ use method).\n",
+    "   ```python\n",
+    "       pirnt(reverseArray([1, 2, 3, 4, 5]))\n",
+    "       # [5, 4, 3, 2, 1]\n",
+    "       print(reverseArray([\"A\", \"B\", \"C\"]))\n",
+    "       # [\"C\", \"B\", \"A\"]\n",
+    "   ```\n",
+    "1. Declare a function name _capitalize_list_items_. It takes list as a parameter and it returns the capitalized list of the elements\n",
+    "1. Declare a function name _add_item. It takess an item parameter and it returns a list after adding the element\n",
+    "1. Declare a function name _remove_tem_. It takes an index parameter and it returns a list after removing an element\n",
+    "1. Declare a function name _sum_of_numbers_. It takes a number parameter and it adds all the numbers in that range.\n",
+    "1. Declare a function name _sum_of_odds_. It takes a number parameter and it adds all the odd numbers in that - range.\n",
+    "1. Declare a function name _sum_of_even_. It takes a number parameter and it adds all the even numbers in that - range.\n",
+    "1. Declare a function name evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.\n",
+    "   ```python\n",
+    "       print(evens_and_odds(100))\n",
+    "       # The number of odds are 50.\n",
+    "       # The number of evens are 51.\n",
+    "   ```\n",
+    "1. Write a funcition which takes any number of arguments and return the sum of the arguments\n",
+    "   ```js\n",
+    "   sum_all_numbers(1, 2, 3); // -> 6\n",
+    "   sum_all_numbers(1, 2, 3, 4); // -> 10\n",
+    "   ```\n",
+    "1. Writ a function which generates a _random_user_id_.\n",
+    "1. Write a function which generates a _random_MAC_address_\n",
+    "1. Declare a function name _random_hexa_gen_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.\n",
+    "   ```python\n",
+    "       print(random_hexa_gen());\n",
+    "      # '#ee33df'\n",
+    "   ```\n",
+    "1. Declare a function name _user_id_gen_. When this function is called it generates seven character id. The function return the id.\n",
+    "   ```python\n",
+    "       print(user_id_gen());\n",
+    "       # 41XTDbE\n",
+    "   ```\n",
+    "1. Modify question number above . Declare a function name _user_id_gen_by_user_. It doesn’t take any parameter but it takes two inputs using input(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.\n",
+    "   ```python\n",
+    "   user_id_gen_by_user()\n",
+    "   \"kcsy2\n",
+    "   SMFYb\n",
+    "   bWmeq\n",
+    "   ZXOYh\n",
+    "   2Rgxf\n",
+    "   \"\n",
+    "    user_id_gen_by_user()\n",
+    "   \"1GCSgPLMaBAVQZ26\n",
+    "   YD7eFwNQKNs7qXaT\n",
+    "   ycArC5yrRupyG00S\n",
+    "   UbGxOFI7UXSWAyKN\n",
+    "   dIV0SSUTgAdKwStr\n",
+    "   \"\n",
+    "   ```\n",
+    "1. Write a function name _rgb_color_gen_ and it generates rgb colors.\n",
+    "   ```python\n",
+    "       print(rgb_color_gen())\n",
+    "       # rgb(125,244,255)\n",
+    "   ```\n",
+    "1. Write a function ***list_of_hexa_colors*** which return any number of hexadecimal colors in an array.\n",
+    "2. Write a function ***list_of_rgb_colors*** which return any number of RGB colors in an array.\n",
+    "3. Write a function ***convert_hexa_to_rgb*** which converts hexa color to rgb and it returns an rgb color.\n",
+    "4. Write a function ***convert_rgb_to_hexa** which converts rgb to hexa color  and it returns an hexa color.\n",
+    "5. Write a function ***generate_colors*** which can generate any number of hexa or rgb colors. \n",
+    "    ```python\n",
+    "          generate_colors('hexa', 3)\n",
+    "          # ['#a3e12f','#03ed55','#eb3d2b']\n",
+    "          generate_colors('hexa', 1)\n",
+    "          # '#b334ef'\n",
+    "\n",
+    "          generate_colors('rgb', 3)\n",
+    "          # ['rgb(5, 55, 175','rgb(50, 105, 100','rgb(15, 26, 80']\n",
+    "          generate_colors('rgb', 1)\n",
+    "          # 'rgb(33,79, 176)'\n",
+    "\n",
+    "    ```\n",
+    "6. Call your function _shuffle_list, it takes a list as a parameter and it returns a shuffled list\n",
+    "7. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number\n",
+    "8. Call your function _is_empty_, it takes a parameter and it checks if it is empty or not\n",
+    "10. Write a function called _sum_of_list_items_, it takes a list parameter and return the sum of all the items. Check if all the list items are number types. If not give return reasonable feedback.\n",
+    "11. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.\n",
+    "12. Write a function called _modify_list_ takes list as parameter and modifies the fifth element of the list and return the list. If the list length is less than five it return 'item not found'.\n",
+    "      ```python\n",
+    "          print(modifyArray([\"Avocado\", \"Tomato\", \"Potato\",\"Mango\", \"Lemon\",\"Carrot\"]);\n",
+    "          # →[\"Avocado\", \"Tomato\", \"Potato\",\"Mango\", \"LEMON\", \"Carrot\"]\n",
+    "          print(modifyArray([\"Google\", \"Facebook\",\"Apple\", \"Amazon\",\"Microsoft\",  \"IBM\"]);\n",
+    "          # →[\"Google\", \"Facebook\",\"Apple\", \"Amazon\",\"MICROSOFT\",  \"IBM\"]\n",
+    "          print(modifyArray([\"Google\", \"Facebook\",\"Apple\", \"Amazon\"]);\n",
+    "          # →\"Not Found\"\n",
+    "      ```\n",
+    "13. Write a function called *is_prime*, which checks if a number is prime number.\n",
+    "14. Write a functions which checks if all items are unique in the array.\n",
+    "15. Write a function which checks if all the itmes of the array are the same data type.\n",
+    "1. JavaScript variable name does not support special characters or symbols execpt $ or _. Write a function ***is_valid_variable** which check if a variable is valid or invlaid variable.\n",
+    "16. Write a function which returns array of seven random numbers in a range of 0-9. All the numbers must be unique.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">CLASSES</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">REGULAR EXPRESSONS</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">MODULES</h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Importing Modules"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1.4142135623730951\n",
+      "9.0\n",
+      "True\n",
+      "3.141592653589793\n",
+      "2.718281828459045\n",
+      "3.141592653589793\n",
+      "2.718281828459045\n",
+      "6.283185307179586\n",
+      "[22.76977213 31.19118012 31.39357782 28.82041376 18.95246175 33.6695274\n",
+      " 22.31571545 21.39637955 28.40572587 24.38512071]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "import re\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import urllib3\n",
+    "import lxml\n",
+    "\n",
+    "print(math.sqrt(2))\n",
+    "print(math.pow(3,2))\n",
+    "print(math.pow(3,2) == 3 ** 2)\n",
+    "print(math.pi)\n",
+    "print(math.e)\n",
+    "# constantcs\n",
+    "pi = math.pi\n",
+    "e = math.e\n",
+    "t = math.tau # 2pi\n",
+    "\n",
+    "print(pi)\n",
+    "print(e)\n",
+    "print(t)\n",
+    "\n",
+    "\n",
+    "A = np.random.normal(25, 5.0, 10)\n",
+    "print (A)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">NUMPY<h1>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[0 1 2]\n",
+      " [3 4 5]]\n",
+      "1\n",
+      "[0 1 2 3 4 5 6 7 8 9]\n",
+      "6\n",
+      "[0 1 2 3 4 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "\n",
+    "# Creating an list using np.array\n",
+    "\n",
+    "x = np.array([0,1,2,3,4,5])\n",
+    "print(x.reshape(2,3))\n",
+    "print(x.ndim)\n",
+    "y = np.arange(10)\n",
+    "print(y)\n",
+    "print(len(x))\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">PANDAS<h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<h1 align=\"center\" style=\"color:#306998;font-size:64px;\">Challenges Coming ...<h1>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Write python comment\n",
+    "Declare different varaibles\n",
+    "Check different data tyypes\n",
+    "Concatinate strings\n",
+    "Write some code that creates a list of integers, \n",
+    "loops through each element of the list, \n",
+    "and only prints out even numbers!"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]\n"
+     ]
+    }
+   ],
+   "source": [
+    "list_nums = range(100);\n",
+    "print(list(list_nums))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def sum_of_evens_and_sum_of_odds (n):\n",
+    "    numbers = range(n)\n",
+    "    evens_sum = 0;\n",
+    "    odds_sum = 0;\n",
+    "    for n in numbers:\n",
+    "        if n % 2 == 0 :\n",
+    "            evens_sum = evens_sum + n\n",
+    "        else:\n",
+    "            odds_sum = odds_sum + n;\n",
+    "    return [evens_sum, odds_sum]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 117,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2550, 2500]"
+      ]
+     },
+     "execution_count": 117,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sum_of_evens_and_sum_of_odds(101)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}
