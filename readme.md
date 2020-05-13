@@ -4033,7 +4033,7 @@ Let's see an example of a series:
 
 Names pandas Series
 
-![pandas series](./mages/pandas-series-1.png) 
+![pandas series](./images/pandas-series-1.png) 
 
 Countries Series
 
@@ -5089,7 +5089,6 @@ df
   </tbody>
 </table>
 </div>
-
 
 
 ### Formating DataFrame column
