@@ -7,18 +7,15 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> June 2019</small>
+  <sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a>  
+  <small>First editon:  June 2019</small>
   </sub>
 </div>
 
 <div>
-
-<small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
-[<img src = './images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true) 
- 
-</div> 
+<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+</div>
 
 <h1 align="center" style="color:#306998;font-size:64px;">INTRODUCTION</h1>
 
